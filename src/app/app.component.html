@@ -1,0 +1,134 @@
+
+
+
+<div class="container">
+  
+
+<div class="row header">
+  <div class="col-sm-1" ></div>
+  <div class="col-sm-3 divImgHolder" >
+    <div class="imgHolder">
+      <img class="rounded-circle profile" src="./assets/profile2.jpg" >
+    </div>
+  </div>
+  <div class="col-sm-8">
+    <h2 class="resume">Julio Alves</h2>
+    <h3 class="resume">Desenvolvedor Mobile e Front-End, UI/UX</h3>
+    <p class="resume">Co-fundador da Ensinar Digital. Mais de 12 anos de experiência em tecnologia e educação. Desenvolvedor de sistemas WEB (Full Stack), jogos e app's, com conhecimentos avançados em UX, UI, Lean Ux, Design Thinking, Prototipação, Metodologias ágeis, Game/Level Design, IA, 3D, Realidade Aumentada, Realidade Virtual.</p>
+  </div>
+</div>
+  
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="cardBox subHeaderInfo">
+        
+        <p> <span class="icon"><fa [name]="'home'"></fa> </span> Quero trabalhar em: Curitiba e Região ou remoto </p>
+        
+        <p> <span class="icon"><fa [name]="'wrench'"></fa> </span> Como: </p>
+          <ul>
+            <li>Analista/Desenvolvedor Web/Mobile, Híbrido/Android</li>
+            <li>Coordenador de projeto</li>
+            <li>UX Developer</li>
+          </ul>
+
+          <!--<p> <span class="icon"><fa [name]="'money'"></fa> </span> Pretensão salarial: R$4300,00 (CLT) / R$5200,00 (PJ)</p>-->
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="cardBox subHeaderInfo">
+        <p> <span class="icon"><fa [name]="'address-card'" class="icon"></fa> </span> Contatos:</p>
+        <br />
+        <p> <span class="icon"><fa [name]="'mobile'" class="icon"></fa> </span> (41) 996 577 619</p>
+        <p> <span class="icon"><fa [name]="'envelope'"></fa> </span> julio@ensinardigital.com.br</p>
+        <p (click)="clicouLinkedin()"> <span class="icon"><fa [name]="'linkedin'"></fa> </span> linkedin.com/in/julioalves87/</p>
+        <p (click)="clicouEd()"> <span class="icon"><fa [name]="'window-maximize'"></fa> </span> www.ensinardigital.com.br</p>
+          
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+  
+  <div class="col-sm-6">
+    <div class="cardBox" style="padding-top: 0px">
+      <app-competencias comps="competencias" titulo="Competências:" class="col-sm-6" style="padding-top: 0px"> 
+      </app-competencias> 
+    </div>
+  </div>
+  
+  <div class="col-sm-6" >
+    <div class="cardBox" style="padding-top: 0px">
+      <app-competencias comps="skills" titulo="Habilidades:" class="col-sm-6" style="padding-top: 0px">
+      </app-competencias> 
+    </div>
+  </div>
+  
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-12">
+      <div class="cardBox">
+        <h2>Histórico Profissional:</h2>
+        <div class="row areaHistorico">
+          <app-historico class="col-sm-6" *ngFor="let i of experiencia"
+          empresa={{i.empresa}} titulo={{i.titulo}} tempo={{i.tempo}} descricao={{i.descricao}}
+          >
+          </app-historico>
+        </div>
+      </div>
+    </div>
+
+ 
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="cardBox">
+        <h2>Formação acadêmica / Cursos</h2>
+        <div class="row areaHistorico">
+          <app-curso class="col-sm-6" *ngFor="let i of cursos"
+              icone={{i.icone}} instituicao={{i.instituicao}} tipo={{i.tipo}} curso={{i.curso}} tempo={{i.tempo}} link={{i.link}}
+            >
+          </app-curso>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+<div class="row">
+  <div class="col-sm-12">
+    <div class="cardBox">
+      <h2>Línguas</h2>
+
+        <div class="row">
+          <app-competencias comps="ingles" subTitulo="Inglês:" class="col-sm-4"> 
+          </app-competencias> 
+
+          <app-competencias comps="espanhol" subTitulo="Espanhol:" class="col-sm-4"> 
+          </app-competencias> 
+
+          <app-competencias comps="frances" subTitulo="Francês:" class="col-sm-4"> 
+          </app-competencias> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row footer">
+    <p>©2018 - Julio Alves - Layout e Desenvolvimento feitos por mim, usando AngularJs, Bootstrap e Font Awesome.</p>
+  </div>
+</div>
+
+
+<!--
+007330931 coleta - resíduos vegetais jardim-->
+
+    
+
+

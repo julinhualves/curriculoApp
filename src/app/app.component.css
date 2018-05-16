@@ -1,0 +1,63 @@
+.areaHistorico{
+	display: flex;
+	align-items: center;
+}
+
+.header{
+	background-color: #2F4858;
+	color: #EDFFEC;
+	padding-top: 10px;
+	/*margin-right: -15px;
+    margin-left: -15px;*/
+}
+.resume{
+	margin-right: 15pt;
+	margin-left: 15pt;
+	text-align: justify;
+}
+.divImgHolder{
+    text-align: center;
+    /*margin-right: -15px;
+    margin-left: 15px;*/
+}
+.imgHolder{
+	padding: 10px;
+	text-align: center;
+}
+.profile{
+	border: 2px solid #EDFFEC;
+	width: 100%;
+    height: 100%;
+}
+.cardBox{
+	padding: 10px;
+	border: 10px;
+	margin-top: 10px;
+	background-color: #EDFFEC;
+	-webkit-box-shadow: 5px 5px 10px 0px rgba(148,148,148,1);
+	-moz-box-shadow: 5px 5px 10px 0px rgba(148,148,148,1);
+	box-shadow: 5px 5px 10px 0px rgba(148,148,148,1);
+}
+.subHeaderInfo p{
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.areaCompetencias{
+	padding: 10px;
+	border: 10px;
+	background-color: #eee;
+	margin-top: 20px;
+}
+
+.footer{
+	background-color: #2F4858;
+	color: #EDFFEC;
+	padding-top: 10px;
+	text-align: center;
+	justify-content: center;
+	font-size: 8pt;
+
+	/*margin-right: -15px;
+    margin-left: -15px;*/
+}

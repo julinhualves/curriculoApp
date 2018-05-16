@@ -1,0 +1,20 @@
+
+
+<div>
+	<div class="row">
+		<div class="col-md-5 col-5 titulo">{{titulo}}</div>
+		<div class="col-md-3 col-3 tempo" >{{tempo}}</div>
+		<div class="col-md-4 col-4 listaEstrelas">
+			
+			<div class=""  *ngFor="let estrela of estrelas"
+			>
+				<div class="estrelaOn" *ngIf="estrela == 1 ">
+					<div>
+					<fa [name]="'star'"></fa>
+					<div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

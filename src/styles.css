@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #55828B;
+  font-family: 'OpenSans-Regular'
+}
+h2 {
+	font-size: 20pt;
+    margin-top: 20px !important;
+}
+h3 {
+	font-size: 16pt;
+}
+
+.nav-link.active{
+	background-color: white;
+}
+
+.nav-link.disabled {
+	pointer-events: none;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src:  url('assets/fonts/OpenSans-Regular.ttf') 
+       format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src:  url('assets/fonts/OpenSans-Bold.ttf') 
+       format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans-Italic;
+  src:  url('assets/fonts/OpenSans-Italic.ttf') 
+       format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+.container{
+	background-color: #A3C4BC;
+}
+
+.cardBox{
+	padding: 12px;
+	margin-bottom: 10px;
+	margin-top: 10PX;
+	border: 10px;
+	background-color: #eee;
+	-webkit-box-shadow: 5px 5px 10px 0px rgba(148,148,148,1);
+	-moz-box-shadow: 5px 5px 10px 0px rgba(148,148,148,1);
+	box-shadow: 5px 5px 10px 0px rgba(148,148,148,1);
+
+}
+
+.icon{
+	width: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,15 @@
+
+<div class="col-sm-12">
+
+	<h2 *ngIf='titulo != ""'>{{titulo}}</h2>
+	<h3 *ngIf='subTitulo != ""'>{{subTitulo}}</h3>
+
+	<app-competencia 
+    	*ngFor="let i of lista"
+    	titulo={{i.titulo}} tempo={{i.tempo}} stars={{i.stars}}
+  >	
+  
+  </app-competencia>
+
+  
+</div>

@@ -1,0 +1,22 @@
+.listaEstrelas{
+	display: flex;
+	padding: 0px;
+	 vertical-align: text-bottom;
+    margin-bottom: 0px;
+    margin-top: auto;
+}
+.titulo{
+	font-size: 11pt;
+}
+.tempo{
+	font-size: 10pt;
+	 vertical-align: text-bottom;
+    margin-bottom: 0px;
+    margin-top: auto;
+}
+.estrelaOn{
+
+}
+.estrelaOff{
+
+}

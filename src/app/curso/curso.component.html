@@ -1,0 +1,17 @@
+<div class="col-12 cardBox">
+	
+
+
+	<p> <fa [name]="'university'" *ngIf="icone == 'university'"></fa>
+		<fa [name]="'laptop'" *ngIf="icone == 'laptop'"></fa>
+		{{instituicao}}
+	</p>
+	<p>{{tipo}}: {{curso}}</p>
+	<p> <fa [name]="'calendar'"></fa> {{tempo}}</p>
+
+
+	<p *ngIf="link != null && link != undefined && link != '' " (click)="clicouLink()" >
+		<fa [name]="'link'"></fa>
+		Ver certificado
+	</p>
+</div>
