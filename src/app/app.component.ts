@@ -13,8 +13,8 @@ export class AppComponent {
   	{
   		empresa: "Empresa: Ensinar Digital",
   	 	tempo: "Período: Ago de 2015 - o momento",
-  	 	titulo: "Cargo: Co-fundador",
-  		descricao: "<p>- Concepção e criação de jogos e atividades educacionais, instalação e personalização de Ambientes Virtuais de Aprendizagem, Criação de sites educacionais com design responsivo. </p><p>- Desenvolvimento de engine para criação livros animados, compatível com tablets, celulares e WEB.</p> <p>- Criação de conteúdo educacional em Realidade Aumentada e Realidade Virtual</p> <p>- Desenvolvimento de app’s proprietários Android e IOS.</p> <p>- Analise e desenvolvimento de softwares personalizados.</p>"
+  	 	titulo: "Cargo: Co-fundador/Analista",
+  		descricao: "<p>- Concepção e criação de jogos e atividades educacionais, instalação e personalização de Ambientes Virtuais de Aprendizagem, Criação de sites educacionais com design responsivo. </p><p>- Desenvolvimento de engine para criação livros animados, compatível com tablets, celulares e WEB.</p> <p>- Criação de conteúdo educacional em Realidade Aumentada e Realidade Virtual</p> <p>- Desenvolvimento de app’s proprietários Android e IOS.</p> <p>- Análise e desenvolvimento de softwares personalizados.</p>"
   	},
 
   	{

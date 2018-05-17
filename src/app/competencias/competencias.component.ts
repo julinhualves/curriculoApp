@@ -29,14 +29,15 @@ export class CompetenciasComponent implements OnInit {
      tempo: "1 ano",
      stars: "3"
    },
-   { 
-    titulo: "Game Develompent",
-     tempo: "5 anos",
-     stars: "4"
-   },
+   
    { 
     titulo: "POO",
      tempo: "7 anos",
+     stars: "5"
+   },
+   { 
+    titulo: "Análise de Sistemas",
+     tempo: "4 anos",
      stars: "5"
    },
    { 
@@ -54,46 +55,50 @@ export class CompetenciasComponent implements OnInit {
      tempo: "3 anos",
      stars: "4"
    }
+   { 
+    titulo: "Game Develompent",
+     tempo: "5 anos",
+     stars: "4"
+   },
   ]
   
 
   skills = [
     { 
-      titulo: "Javascript/Next Jen/Typescript",
+      titulo: "Javascript / Typescript",
      tempo:  "6 anos",
      stars: "5"
    },
     { 
-   titulo: "HTML5/CSS3",
-     tempo:  "6 anos",
-     stars: "4"
-   },
-    { 
-     titulo: "Jquery/bootstrap",
-     tempo:  "4 anos",
-     stars: "4"
-   },
-   { titulo: "Unity 3D",
+   titulo: "HTML5 / CSS3 / Jquery / bootstrap",
      tempo:  "5 anos",
      stars: "4"
-   },
-   { titulo: "Angular",
+   }
+   { titulo: "Angular 2",
      tempo: "3 anos",
+     stars: "4"
+   }
+   { titulo: "Ionic",
+     tempo:  "2 anos",
      stars: "4"
    },
    { titulo: "React",
      tempo:  "1 ano",
      stars: "2"
    },
-   { titulo: "Ionic",
+   { titulo: "Java",
      tempo:  "2 anos",
-     stars: "4"
+     stars: "3"
    },
    { titulo: "Android Nativo",
      tempo:  "1 ano",
      stars: "4"
    },
-   { titulo: "Actionscript/flash",
+   { titulo: "Unity 3D",
+     tempo:  "5 anos",
+     stars: "4"
+   },
+   { titulo: "Actionscript / flash",
      tempo:  "6 anos",
      stars: "5"
    }
